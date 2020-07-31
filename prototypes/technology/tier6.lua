@@ -7,7 +7,7 @@ data:extend{
     effects = {{type = "unlock-recipe", recipe = "micro-definitive-furnace"}},
     prerequisites = {"micro-ultimate-furnace"},
     unit = {
-      count = 3200,
+      count = 6400,
       time = 30,
       ingredients = {
         {"automation-science-pack", 1},

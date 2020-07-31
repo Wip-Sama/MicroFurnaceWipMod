@@ -1,12 +1,19 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.0
-  News
-    - nobody:
-    - me: new mod
+Version: 1.0.3
+Date: 23/03/2020
+  Removed:
+    - krastorio compatibility
+  Changes:
+    - definitive furnace technology balance
+    - tier 4-6 balancement
+  Added:
+    - krastorio2 compatibility
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 23/03/2020
-Changes:
-  Modified:
-      --info.json
-  Added:
+  Changes:
+      - depencies
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Changes:
+    - first version

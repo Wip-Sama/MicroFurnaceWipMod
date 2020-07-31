@@ -3,15 +3,15 @@ local entities = require "lib.entities"
 
 data:extend{
   entities.micro_furnace{
-    tier = tiers.krastorio.tier_1,
+    tier = tiers.krastorio2.tier_1,
   },
   entities.micro_furnace{
-    tier = tiers.krastorio.tier_2,
+    tier = tiers.krastorio2.tier_2,
   },
   entities.micro_furnace{
-    tier = tiers.krastorio.tier_3,
+    tier = tiers.krastorio2.tier_3,
   },
   entities.micro_furnace{
-    tier = tiers.krastorio.tier_4,
+    tier = tiers.krastorio2.tier_4,
   },
 }
