@@ -5,10 +5,10 @@ require "prototypes.technology.technology"
 
 local branch = "vanilla"
 
-if mods["Krastorio2"] then
-  branch = "krastorio2"
-elseif mods["UltimateBelts"] then
+if mods["UltimateBelts"] then
   branch = "ub"
+elseif mods["Krastorio2"] then
+  branch = "krastorio"
 elseif mods["boblogistics"] then
   branch = "boblogistics"
 elseif mods["FactorioExtended-Plus-Transport"] then

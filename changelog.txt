@@ -1,13 +1,13 @@
 ---------------------------------------------------------------------------------------------------
-Version: 1.0.3
-Date: 23/03/2020
+Version: 1.0.4
+Date: 2020-08-11
   Removed:
     - krastorio compatibility
   Changes:
     - definitive furnace technology balance
     - tier 4-6 balancement
   Added:
-    - krastorio2 compatibility
+    - krastorio compatibility
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 23/03/2020

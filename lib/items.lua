@@ -6,7 +6,7 @@ local function micro_furnace_item(data)
     type = "item",
     name = tier.target,
     icons = {{icon = "__base__/graphics/icons/electric-furnace.png", tint = tier.color}},
-    icon_size = 32,
+    icon_size = 64, icon_mipmaps = 4,
     order = order,
     subgroup = "smelting-machine",
     place_result = tier.target,
