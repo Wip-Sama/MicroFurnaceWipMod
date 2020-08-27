@@ -1,7 +1,7 @@
 {
   "name": "MicroFurnaceWipMod",
-  "version": "1.0.4",
-  "factorio_version": "0.18",
+  "version": "1.0.5",
+  "factorio_version": "1.0",
   "title": "Micro Furnace",
   "author": "WipMod",
   "contact": "https://t.me/wipmod",
@@ -13,6 +13,7 @@
     "? bobplates >= 0.17.11",
     "? FactorioExtended-Plus-Transport >= 0.2.6",
     "? deadlock-beltboxes-loaders >= 2.2.0",
-    "? krastorio2 >= 0.9"
+    "? krastorio2 >= 0.9",
+    "? Random_Utilities >= 2.0.0"
   ]
 }

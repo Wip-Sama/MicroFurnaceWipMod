@@ -5,7 +5,9 @@ require "prototypes.technology.technology"
 
 local branch = "vanilla"
 
-if mods["UltimateBelts"] then
+if mods["Random_Utilities"] then
+  branch = "ru"
+elseif mods["UltimateBelts"] then
   branch = "ub"
 elseif mods["Krastorio2"] then
   branch = "krastorio"

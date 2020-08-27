@@ -1,6 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 27. 08. 200
+  Added:
+    - Random_Utilities compatibility (>=2.0.0)
+
+  Chnages:
+    - fixed krastorio 2 compatibility
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
-Date: 2020-08-11
+Date: 12/08/2020
   Removed:
     - krastorio compatibility
   Changes:

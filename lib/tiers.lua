@@ -40,15 +40,16 @@ local vanilla_tiers = {
     module_slots = 6,
     bunch_only   = true,
     target       = "micro-ultimate-furnace",
-  },
+  },  
   tier_6 = {
     index        = 6,
     color        = colors.tier_6,
-    multiplier   = 7,
+    multiplier   = 10,
     module_slots = 7,
     bunch_only   = true,
     target       = "micro-definitive-furnace",
   },
+
 }
 
 local boblogistics_tiers = {
@@ -142,4 +143,6 @@ return {
   boblogistics = boblogistics_tiers,
   fep = vanilla_tiers,
   krastorio = krastorio_tiers,
+  ub = vanilla_tiers,
+  ru = vanilla_tiers,
 }
