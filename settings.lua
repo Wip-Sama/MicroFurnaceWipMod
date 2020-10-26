@@ -8,4 +8,11 @@ data:extend{
     minimum_value = 2,
     maximum_value = 200,
   },
+  {
+    type = "bool-setting",
+    name = "enable-productivity-limitation",
+    order = "b",
+    setting_type = "startup",
+    default_value = "false",
+  },
 }

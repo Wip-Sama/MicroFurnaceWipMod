@@ -64,10 +64,11 @@ local function bunch_recipe_prototype(recipe)
 
   data.raw["recipe"][bunch.name] = bunch
   bunch_recipe_mapping[recipe.name] = bunch.name
-
-  for _, module in pairs(data.raw["module"]) do
-    if module.limitation and module.limitation[recipe.name] ~= nil then
-      table.insert(module.limitation, bunch.name)
+  if settings.startup["enable-productivity-limitataion"] then
+    for _, module in pairs(data.raw["module"]) do
+      if module.limitation and module.limitation[recipe.name] ~= nil then
+        table.insert(module.limitation, bunch.name)
+      end
     end
   end
 end
@@ -89,6 +90,16 @@ for _, technology in pairs(data.raw["technology"]) do
           type = "unlock-recipe",
           recipe = bunch_recipe_mapping[effect.recipe],
         })
+      end
+    end
+  end
+end
+
+if settings.startup["enable-productivity-limitataion"] then
+  for _, module in pairs(data.raw["module"]) do
+    if module.name:find("productivity") and module.limitation then
+      for _, recipe in ipairs(productivity_affected_recipes) do
+        table.insert(module.limitation, recipe)
       end
     end
   end
