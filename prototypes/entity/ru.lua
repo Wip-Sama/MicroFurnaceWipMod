@@ -20,4 +20,7 @@ data:extend{
   entities.micro_furnace{
     tier = tiers.ru.tier_6,
   },
+  entities.micro_furnace{
+    tier = tiers.ru.tier_7,
+  },
 }

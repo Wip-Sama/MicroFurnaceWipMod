@@ -71,30 +71,30 @@ local ru_tiers = {
   tier_3 = {
     index        = 3,
     color        = colors.tier_3,
-    multiplier   = 3,
+    multiplier   = 4,
     module_slots = 4,
     bunch_only   = false,
     target       = "micro-express-furnace",
   },
   tier_4 = {
     index        = 4,
-    color        = colors.tier_4,
-    multiplier   = 4,
+    color        = colors.ru_tier_4,
+    multiplier   = 6,
     module_slots = 5,
     bunch_only   = true,
     target       = "micro-turbo-furnace",
   },
   tier_5 = {
     index        = 5,
-    color        = colors.tier_5,
-    multiplier   = 5,
+    color        = colors.ru_tier_5,
+    multiplier   = 8,
     module_slots = 6,
     bunch_only   = true,
     target       = "micro-ultimate-furnace",
   },  
   tier_6 = {
     index        = 6,
-    color        = colors.tier_6,
+    color        = colors.ru_tier_6,
     multiplier   = 10,
     module_slots = 7,
     bunch_only   = true,
@@ -102,11 +102,11 @@ local ru_tiers = {
   },
   tier_7 = {
     index        = 7,
-    color        = colors.tier_6,
-    multiplier   = 140,
+    color        = colors.ru_tier_7,
+    multiplier   = 134,
     module_slots = 8,
     bunch_only   = true,
-    target       = "micro-definitive-furnace",
+    target       = "micro-behemoth-furnace",
   },
 }
 
@@ -202,5 +202,5 @@ return {
   fep = vanilla_tiers,
   krastorio = krastorio_tiers,
   ub = vanilla_tiers,
-  ru = vanilla_tiers,
+  ru = ru_tiers,
 }

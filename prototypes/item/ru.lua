@@ -26,4 +26,8 @@ data:extend{
     tier = tiers.ru.tier_6,
     order = "c[micro-furnace]-f",
   },
+  items.micro_furnace{
+    tier = tiers.ru.tier_7,
+    order = "c[micro-furnace]-g",
+  },
 }

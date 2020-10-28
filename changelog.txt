@@ -1,13 +1,24 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 28/10/2020
+  Added:
+    - Tier 7 furnace with Random_Utilities installed
+  Changes:
+    - Furnace color with Random_Utilities installed
+    - Furnace color with Krastorio2 installed
+    - Rebalanced furnace for Random-utilities (only if installed)
+  Notes:
+    - The color may not be what you're expecting with some mod installed
+---------------------------------------------------------------------------------------------------
 Version: 1.0.6
-Date: 2020-10-26
+Date: 26/10/2020
   Added:
     - productivity limitation setting
     - iron / copper / stone compressed recipe (deadlock)
     - silicon / coke / glass / rare metals compressed recipe (deadlock/krastorio2)
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.5
-Date: 27/08200
+Date: 27/08/2020
   Added:
     - Random_Utilities compatibility (>=2.0.0)
   Chnages:
