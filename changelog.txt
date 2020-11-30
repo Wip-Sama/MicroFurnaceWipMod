@@ -1,4 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 30/11/2020
+  Changes:
+    - Compressed recipe now give you back compressed ore
+    - Compressed Recipe moved from 1 to 1 > 10 to 10 for UPS and high quantity processing
+    - New Thumbnail
+  Bugfixes:
+    - Behemoth micro furnace name
+  Notes:
+    - The recipe that give you uncompressed items will be disabled for now
+---------------------------------------------------------------------------------------------------
 Version: 1.0.7
 Date: 28/10/2020
   Added:
