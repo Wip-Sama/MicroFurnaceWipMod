@@ -1,33 +1,18 @@
-data:extend{
+data:extend {
   {
     type = "recipe",
     category = "advanced-crafting",
     name = "micro-definitive-furnace",
-    normal = {
-      enabled = false,
-      ingredients = {
-        {"micro-ultimate-furnace", 2},
-        {"stack-inserter", 30},
-        {"steel-plate", 1600},
-        {"processing-unit", 20},
-        {"iron-gear-wheel", 20},
-        {"iron-stick", 20},
-      },
-      energy_required = 30,
-      result = "micro-definitive-furnace",
+    enabled = false,
+    ingredients = {
+      { name = "micro-ultimate-furnace", amount = 2,    type = "item" },
+      { name = "bulk-inserter",         amount = 30,   type = "item" },
+      { name = "steel-plate",            amount = 1600, type = "item" },
+      { name = "processing-unit",        amount = 20,   type = "item" },
+      { name = "iron-gear-wheel",        amount = 20,   type = "item" },
+      { name = "iron-stick",             amount = 20,   type = "item" },
     },
-    expensive = {
-      enabled = false,
-      ingredients = {
-        {"micro-ultimate-furnace", 4},
-        {"stack-inserter", 60},
-        {"steel-plate", 6400},
-        {"processing-unit", 200},
-        {"iron-gear-wheel", 200},
-        {"iron-stick", 200},
-      },
-      energy_required = 120,
-      result = "micro-definitive-furnace",
-    },
+    energy_required = 30,
+    results = { { name = "micro-definitive-furnace", amount = 1, type = "item" } },
   },
 }

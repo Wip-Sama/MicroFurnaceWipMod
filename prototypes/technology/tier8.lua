@@ -1,13 +1,13 @@
 data:extend{
   {
     type = "technology",
-    name = "micro-definitive-furnace",
+    name = "micro-mk8-furnace",
     icon_size = 256,
     icon = "__base__/graphics/technology/advanced-material-processing.png",
-    effects = {{type = "unlock-recipe", recipe = "micro-definitive-furnace"}},
-    prerequisites = {"micro-ultimate-furnace"},
+    effects = {{type = "unlock-recipe", recipe = "micro-mk8-furnace"}},
+    prerequisites = {"micro-behemoth-furnace"},
     unit = {
-      count = 6400,
+      count = 24000,
       time = 30,
       ingredients = {
         {"automation-science-pack", 1},

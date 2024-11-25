@@ -1,4 +1,56 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.16
+Date: ????
+  Changes:
+---------------------------------------------------------------------------------------------------
+Version: 1.0.15
+Date: 24/10/2024
+  Added:
+    - Support for Squeak Through 2
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 22/10/2024
+  Changes:
+    - update for factorio 2.0
+    - hidden "productivity limitation" setting, I need to implement it from scratch
+  Known issues:
+    - the pipes graphics is kinda broken, It's used so little that for now I'm gonna leav it as this, if you have a huse case for this tell me
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 17/10/2021
+  Added:
+    - compatibility with 5dim's transport
+  Changes:
+    - now the pollution scale with the tier of the furnace
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 10/07/2021
+  Bugfixes:
+    - technology image
+    - behemoth microfurnace technology cost
+    - Fixed some problem with deadlock recipe
+  Added:
+    - recipe (stacked item to normal item) deadlock
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 13/12/2020
+  Added:
+    - Leighzer's Uranium Innovations support
+  Changes:
+    - Krastorio 2 furnace multiplier
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 05/12/2020
+  Added:
+    - factorio 1.1 update
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 05/12/2020
+  Added:
+    - omnifactory recipe category
+  Changes:
+    - rabelanced speed for Random_Utilities furnaces
+---------------------------------------------------------------------------------------------------
 Version: 1.0.8
 Date: 30/11/2020
   Changes:

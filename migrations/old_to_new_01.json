@@ -1,0 +1,42 @@
+{
+    "entity":
+    [
+        ["micro-furnace",                   "micro-mk1-furnace"],
+        ["micro-fast-furnace",              "micro-mk2-furnace"],
+        ["micro-express-furnace",           "micro-mk3-furnace"],
+        ["micro-turbo-furnace",             "micro-mk4-furnace"],
+        ["micro-ultimate-furnace",          "micro-mk5-furnace"],
+        ["micro-definitive-furnace",        "micro-mk6-furnace"],
+        ["micro-behemoth-furnace",          "micro-mk7-furnace"]
+    ],
+    "item":
+    [
+        ["micro-furnace",                   "micro-mk1-furnace"],
+        ["micro-fast-furnace",              "micro-mk2-furnace"],
+        ["micro-express-furnace",           "micro-mk3-furnace"],
+        ["micro-turbo-furnace",             "micro-mk4-furnace"],
+        ["micro-ultimate-furnace",          "micro-mk5-furnace"],
+        ["micro-definitive-furnace",        "micro-mk6-furnace"],
+        ["micro-behemoth-furnace",          "micro-mk7-furnace"]
+    ],
+    "technology":
+    [
+        ["micro-furnace",                   "micro-mk1-furnace"],
+        ["micro-fast-furnace",              "micro-mk2-furnace"],
+        ["micro-express-furnace",           "micro-mk3-furnace"],
+        ["micro-turbo-furnace",             "micro-mk4-furnace"],
+        ["micro-ultimate-furnace",          "micro-mk5-furnace"],
+        ["micro-definitive-furnace",        "micro-mk6-furnace"],
+        ["micro-behemoth-furnace",          "micro-mk7-furnace"]
+    ],
+    "recipe":
+    [
+        ["micro-furnace",                   "micro-mk1-furnace"],
+        ["micro-fast-furnace",              "micro-mk2-furnace"],
+        ["micro-express-furnace",           "micro-mk3-furnace"],
+        ["micro-turbo-furnace",             "micro-mk4-furnace"],
+        ["micro-ultimate-furnace",          "micro-mk5-furnace"],
+        ["micro-definitive-furnace",        "micro-mk6-furnace"],
+        ["micro-behemoth-furnace",          "micro-mk7-furnace"]
+    ]
+}

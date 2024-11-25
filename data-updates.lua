@@ -4,6 +4,7 @@ local recipe_categories_to_bunch = {
   "smelting",
   "chemical-furnace", -- bobs
   "mixing-furnace", -- bobs
+  "omnifurnace", --omnifurnace
 }
 
 local function bunch_item(item, multiplier)
@@ -55,22 +56,22 @@ local function bunch_recipe_prototype(recipe)
   bunch.name = "micro-furnace-bunch-" .. bunch.name
   bunch.localised_description = {"recipe-description.bunch-smelting"}
 
-  if bunch.normal and bunch.expensive then
-    bunch_recipe(bunch.normal, bunch_multiplier, recipe.name)
-    bunch_recipe(bunch.expensive, bunch_multiplier, recipe.name)
+  if bunch.normal then
   else
     bunch_recipe(bunch, bunch_multiplier, recipe.name)
   end
 
   data.raw["recipe"][bunch.name] = bunch
   bunch_recipe_mapping[recipe.name] = bunch.name
-  if settings.startup["enable-productivity-limitataion"] then
-    for _, module in pairs(data.raw["module"]) do
-      if module.limitation and module.limitation[recipe.name] ~= nil then
-        table.insert(module.limitation, bunch.name)
-      end
-    end
-  end
+
+  -- if settings.startup["enable-productivity-limitataion"] then
+  --   for _, module in pairs(data.raw["module"]) do
+  --     if module.limitation and module.limitation[recipe.name] ~= nil then
+  --       table.insert(module.limitation, bunch.name)
+  --     end
+  --   end
+  -- end
+
 end
 
 for _, recipe in pairs(data.raw["recipe"]) do
@@ -95,12 +96,12 @@ for _, technology in pairs(data.raw["technology"]) do
   end
 end
 
-if settings.startup["enable-productivity-limitataion"] then
-  for _, module in pairs(data.raw["module"]) do
-    if module.name:find("productivity") and module.limitation then
-      for _, recipe in ipairs(productivity_affected_recipes) do
-        table.insert(module.limitation, recipe)
-      end
-    end
-  end
-end
+-- if settings.startup["enable-productivity-limitataion"] then
+--   for _, module in pairs(data.raw["module"]) do
+--     if module.name:find("productivity") and module.limitation then
+--       for _, recipe in ipairs(productivity_affected_recipes) do
+--         table.insert(module.limitation, recipe)
+--       end
+--     end
+--   end
+-- end

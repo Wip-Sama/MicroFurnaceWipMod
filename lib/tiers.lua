@@ -40,14 +40,46 @@ local vanilla_tiers = {
     module_slots = 6,
     bunch_only   = true,
     target       = "micro-ultimate-furnace",
-  },  
+  },
   tier_6 = {
     index        = 6,
     color        = colors.tier_6,
-    multiplier   = 10,
+    multiplier   = 6,
     module_slots = 7,
     bunch_only   = true,
     target       = "micro-definitive-furnace",
+  },
+  tier_7 = {
+    index        = 7,
+    color        = colors.tier_7,
+    multiplier   = 7,
+    module_slots = 7,
+    bunch_only   = true,
+    target       = "micro-behemoth-furnace",
+  },
+  tier_8 = {
+    index        = 8,
+    color        = colors.tier_8,
+    multiplier   = 8,
+    module_slots = 7,
+    bunch_only   = true,
+    target       = "micro-mk8-furnace",
+  },
+  tier_9 = {
+    index        = 9,
+    color        = colors.tier_9,
+    multiplier   = 9,
+    module_slots = 8,
+    bunch_only   = true,
+    target       = "micro-mk9-furnace",
+  },
+  tier_10 = {
+    index        = 10,
+    color        = colors.tier_10,
+    multiplier   = 10,
+    module_slots = 8,
+    bunch_only   = true,
+    target       = "micro-mk10-furnace",
   },
 }
 
@@ -95,7 +127,7 @@ local ru_tiers = {
   tier_6 = {
     index        = 6,
     color        = colors.ru_tier_6,
-    multiplier   = 10,
+    multiplier   = 12,
     module_slots = 7,
     bunch_only   = true,
     target       = "micro-definitive-furnace",
@@ -103,7 +135,7 @@ local ru_tiers = {
   tier_7 = {
     index        = 7,
     color        = colors.ru_tier_7,
-    multiplier   = 134,
+    multiplier   = 24,
     module_slots = 8,
     bunch_only   = true,
     target       = "micro-behemoth-furnace",
@@ -181,7 +213,7 @@ local krastorio_tiers = {
   tier_4 = {
     index        = 4,
     color        = colors.tier_5,
-    multiplier   = 4,
+    multiplier   = 5,
     module_slots = 4,
     bunch_only   = true,
     target       = vanilla_tiers.tier_4.target,
@@ -196,6 +228,41 @@ local krastorio_tiers = {
   },
 }
 
+local leiz_tiers = {
+  tier_1 = {
+    index        = 1,
+    color        = colors.tier_1,
+    multiplier   = 1,
+    module_slots = 2,
+    bunch_only   = false,
+    target       = vanilla_tiers.tier_1.target
+  },
+  tier_2 = {
+    index        = 2,
+    color        = colors.tier_2,
+    multiplier   = 2,
+    module_slots = 3,
+    bunch_only   = false,
+    target       = vanilla_tiers.tier_2.target,
+  },
+  tier_3 = {
+    index        = 3,
+    color        = colors.tier_3,
+    multiplier   = 3,
+    module_slots = 4,
+    bunch_only   = false,
+    target       = vanilla_tiers.tier_3.target,
+  },
+  tier_4 = {
+    index        = 4,
+    color        = colors.leiz_tier_4,
+    multiplier   = 5,
+    module_slots = 4,
+    bunch_only   = true,
+    target       = vanilla_tiers.tier_4.target,
+  },
+}
+
 return {
   vanilla = vanilla_tiers,
   boblogistics = boblogistics_tiers,
@@ -203,4 +270,6 @@ return {
   krastorio = krastorio_tiers,
   ub = vanilla_tiers,
   ru = ru_tiers,
+  leiz = leiz_tiers,
+  _5dimt = vanilla_tiers,
 }

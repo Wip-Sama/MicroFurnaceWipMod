@@ -1,33 +1,18 @@
-data:extend{
+data:extend {
   {
     type = "recipe",
     category = "advanced-crafting",
     name = "micro-turbo-furnace",
-    normal = {
-      enabled = false,
-      ingredients = {
-        {"micro-express-furnace", 2},
-        {"stack-inserter", 20},
-        {"steel-plate", 400},
-        {"processing-unit", 20},
-        {"iron-gear-wheel", 20},
-        {"iron-stick", 20},
-      },
-      energy_required = 30,
-      result = "micro-turbo-furnace",
+    enabled = false,
+    ingredients = {
+      { name = "micro-express-furnace", amount = 2,  type = "item" },
+      { name = "bulk-inserter",       amount = 20,  type = "item" },
+      { name = "steel-plate",          amount = 400, type = "item" },
+      { name = "processing-unit",      amount = 20,  type = "item" },
+      { name = "iron-gear-wheel",      amount = 20,  type = "item" },
+      { name = "iron-stick",           amount = 20,  type = "item" },
     },
-    expensive = {
-      enabled = false,
-      ingredients = {
-        {"micro-express-furnace", 4},
-        {"stack-inserter", 40},
-        {"steel-plate", 1600},
-        {"processing-unit", 200},
-        {"iron-gear-wheel", 200},
-        {"iron-stick", 200},
-      },
-      energy_required = 120,
-      result = "micro-turbo-furnace",
-    },
+    energy_required = 30,
+    results = { { name = "micro-turbo-furnace", amount = 1, type = "item" } },
   },
 }

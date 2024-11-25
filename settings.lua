@@ -13,6 +13,7 @@ data:extend{
     name = "enable-productivity-limitation",
     order = "b",
     setting_type = "startup",
-    default_value = "false",
+    default_value = false,
+    hidden = true,
   },
 }

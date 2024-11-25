@@ -1,33 +1,18 @@
-data:extend{
+data:extend {
   {
     type = "recipe",
     category = "advanced-crafting",
     name = "micro-behemoth-furnace",
-    normal = {
-      enabled = false,
-      ingredients = {
-        {"micro-definitive-furnace", 2},
-        {"stack-inserter", 60},
-        {"steel-plate", 32000},
-        {"processing-unit", 40},
-        {"iron-gear-wheel", 40},
-        {"iron-stick", 40},
-      },
-      energy_required = 30,
-      result = "micro-behemoth-furnace",
+    enabled = false,
+    ingredients = {
+      { name = "micro-definitive-furnace", amount = 2,    type = "item" },
+      { name = "bulk-inserter",           amount = 60,   type = "item" },
+      { name = "steel-plate",              amount = 1800, type = "item" },
+      { name = "processing-unit",          amount = 40,   type = "item" },
+      { name = "iron-gear-wheel",          amount = 40,   type = "item" },
+      { name = "iron-stick",               amount = 40,   type = "item" },
     },
-    expensive = {
-      enabled = false,
-      ingredients = {
-        {"micro-definitive-furnace", 4},
-        {"stack-inserter", 120},
-        {"steel-plate", 12800},
-        {"processing-unit", 400},
-        {"iron-gear-wheel", 400},
-        {"iron-stick", 400},
-      },
-      energy_required = 120,
-      result = "micro-behemoth-furnace",
-    },
+    energy_required = 30,
+    results = { { name = "micro-behemoth-furnace", amount = 1, type = "item" } },
   },
 }

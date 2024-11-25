@@ -2,7 +2,7 @@ data:extend{
   {
     type = "technology",
     name = "micro-ultimate-furnace",
-    icon_size = 128,
+    icon_size = 256,
     icon = "__base__/graphics/technology/advanced-material-processing.png",
     effects = {{type = "unlock-recipe", recipe = "micro-ultimate-furnace"}},
     prerequisites = {"micro-turbo-furnace"},

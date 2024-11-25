@@ -1,0 +1,8 @@
+require "prototypes.technology.vanilla"
+require "prototypes.technology.tier4"
+require "prototypes.technology.tier5"
+require "prototypes.technology.tier6"
+require "prototypes.technology.tier7"
+require "prototypes.technology.tier8"
+require "prototypes.technology.tier9"
+require "prototypes.technology.tier10"

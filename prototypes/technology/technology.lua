@@ -2,7 +2,7 @@ data:extend{
   {
     type = "technology",
     name = "micro-furnace-steel-processing",
-    icon_size = 128,
+    icon_size = 256,
     icon = "__base__/graphics/technology/steel-processing.png",
     effects = {{type = "unlock-recipe", recipe = "micro-steel-plate"}},
     prerequisites = {"steel-processing", "micro-fast-furnace"},

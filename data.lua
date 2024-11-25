@@ -7,6 +7,8 @@ local branch = "vanilla"
 
 if mods["Random_Utilities"] then
   branch = "ru"
+elseif mods["5dim_transport"] then
+  branch = "_5dimt"
 elseif mods["UltimateBelts"] then
   branch = "ub"
 elseif mods["Krastorio2"] then
@@ -15,6 +17,8 @@ elseif mods["boblogistics"] then
   branch = "boblogistics"
 elseif mods["FactorioExtended-Plus-Transport"] then
   branch = "fep"
+elseif mods["leighzeruraniuminnovations"] then
+  branch = "leiz"
 end
 
 require ("prototypes.entity." .. branch)

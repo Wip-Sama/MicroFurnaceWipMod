@@ -2,7 +2,7 @@ data:extend{
   {
     type = "technology",
     name = "micro-furnace",
-    icon_size = 128,
+    icon_size = 256,
     icon = "__base__/graphics/technology/advanced-material-processing.png",
     effects = {{type = "unlock-recipe", recipe = "micro-furnace"}},
     prerequisites = {"advanced-material-processing-2"},
@@ -19,7 +19,7 @@ data:extend{
   {
     type = "technology",
     name = "micro-fast-furnace",
-    icon_size = 128,
+    icon_size = 256,
     icon = "__base__/graphics/technology/advanced-material-processing.png",
     effects = {{type = "unlock-recipe", recipe = "micro-fast-furnace"}},
     prerequisites = {"micro-furnace"},
@@ -37,7 +37,7 @@ data:extend{
   {
     type = "technology",
     name = "micro-express-furnace",
-    icon_size = 128,
+    icon_size = 256,
     icon = "__base__/graphics/technology/advanced-material-processing.png",
     effects = {{type = "unlock-recipe", recipe = "micro-express-furnace"}},
     prerequisites = {"micro-fast-furnace"},
