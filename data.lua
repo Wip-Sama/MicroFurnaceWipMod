@@ -5,7 +5,9 @@ require "prototypes.technology.technology"
 
 local branch = "vanilla"
 
-if mods["Random_Utilities"] then
+if mods["space-age"] then
+  branch = "spaceage"
+elseif mods["Random_Utilities"] then
   branch = "ru"
 elseif mods["5dim_transport"] then
   branch = "_5dimt"
