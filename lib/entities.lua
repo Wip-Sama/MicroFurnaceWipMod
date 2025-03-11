@@ -101,46 +101,24 @@ local function micro_furnace_entity(data)
         layers =
         {
           {
-            filename = "__base__/graphics/entity/electric-furnace/electric-furnace-base.png",
+            filename = "__base__/graphics/entity/electric-furnace/electric-furnace.png",
             priority = "high",
-            width = 129,
-            height = 100,
+            width = 239,
+            height = 219,
             frame_count = 1,
-            shift = { 0.421875 / 3, 0 },
-            scale = 1 / 3,
+            shift = util.by_pixel(0.75 / 3, 5.75 / 3),
+            scale = 0.5 / 3,
             tint = tier.color,
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace.png",
-              priority = "high",
-              width = 239,
-              height = 219,
-              frame_count = 1,
-              shift = util.by_pixel(0.75 / 3, 5.75 / 3),
-              scale = 0.5 / 3,
-              tint = tier.color,
-            },
           },
           {
             filename = "__base__/graphics/entity/electric-furnace/electric-furnace-shadow.png",
             priority = "high",
-            width = 129,
-            height = 100,
+            width = 227,
+            height = 171,
             frame_count = 1,
             draw_as_shadow = true,
-            scale = 1 / 3,
-            shift = { 0.421875 / 3, 0 },
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png",
-              priority = "high",
-              width = 227,
-              height = 171,
-              frame_count = 1,
-              draw_as_shadow = true,
-              shift = util.by_pixel(11.25 / 3, 7.75 / 3),
-              scale = 0.5 / 3,
-            },
+            shift = util.by_pixel(11.25 / 3, 7.75 / 3),
+            scale = 0.5 / 3,
           },
         }
       },
@@ -151,23 +129,12 @@ local function micro_furnace_entity(data)
           {
             filename = "__base__/graphics/entity/electric-furnace/electric-furnace-heater.png",
             priority = "high",
-            width = 25,
-            height = 15,
+            width = 60,
+            height = 56,
             frame_count = 12,
             animation_speed = 0.5,
-            shift = { 0.015625 / 3, 0.890625 / 3 },
-            scale = 1 / 3,
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-heater.png",
-              priority = "high",
-              width = 60,
-              height = 56,
-              frame_count = 12,
-              animation_speed = 0.5,
-              shift = util.by_pixel(1.75 / 3, 32.75 / 3),
-              scale = 0.5 / 3,
-            },
+            shift = util.by_pixel(1.75 / 3, 32.75 / 3),
+            scale = 0.5 / 3,
           },
           light = { intensity = 0.4, size = 6, shift = { 0.0, 0.5 }, color = { r = 1.0, g = 1.0, b = 1.0 } }
         },
@@ -176,23 +143,12 @@ local function micro_furnace_entity(data)
           {
             filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-1.png",
             priority = "high",
-            width = 19,
-            height = 13,
+            width = 37,
+            height = 25,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = { -0.671875 / 3, -0.640625 / 3 },
-            scale = 1 / 3,
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-1.png",
-              priority = "high",
-              width = 37,
-              height = 25,
-              frame_count = 4,
-              animation_speed = 0.5,
-              shift = util.by_pixel(-20.5 / 3, -18.5 / 3),
-              scale = 0.5 / 3
-            },
+            shift = util.by_pixel(-20.5 / 3, -18.5 / 3),
+            scale = 0.5 / 3
           },
         },
         {
@@ -200,23 +156,12 @@ local function micro_furnace_entity(data)
           {
             filename = "__base__/graphics/entity/electric-furnace/electric-furnace-propeller-2.png",
             priority = "high",
-            width = 12,
-            height = 9,
+            width = 23,
+            height = 15,
             frame_count = 4,
             animation_speed = 0.5,
-            shift = { 0.0625 / 3, -1.234375 / 3 },
-            scale = 1 / 3,
-            hr_version =
-            {
-              filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-propeller-2.png",
-              priority = "high",
-              width = 23,
-              height = 15,
-              frame_count = 4,
-              animation_speed = 0.5,
-              shift = util.by_pixel(3.5 / 3, -38 / 3),
-              scale = 0.5 / 3
-            },
+            shift = util.by_pixel(3.5 / 3, -38 / 3),
+            scale = 0.5 / 3
           },
         },
       },
