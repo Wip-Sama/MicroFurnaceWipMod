@@ -16,7 +16,7 @@ data:extend {
     enabled = false,
     energy_required = 3.2,
     ingredients = { { name = "deadlock-stack-iron-ore", amount = 10, type = "item" } },
-    results = { { name = "deadlock-stack-iron-ore", amount = 10, type = "item" } },
+    results = { { name = "deadlock-stack-iron-plate", amount = 10, type = "item" } },
   },
   {
     type = "recipe",

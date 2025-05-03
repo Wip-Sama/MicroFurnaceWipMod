@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.18
+Date: 03/05/2025
+  Bugfixes:
+    - Deadlosk stacked iron recipe woould give back iron ore instead of plates [fixed by: Dinger](https://mods.factorio.com/mod/MicroFurnaceWipMod/discussion/680c909c916247262c584206)
+---------------------------------------------------------------------------------------------------
 Version: 1.0.17
 Date: 25/11/2024
   Bugfixes:
@@ -103,7 +108,7 @@ Date: 12/08/2020
     - definitive furnace technology balance
     - tier 4-6 balancement
   Added:
-    - krastorio compatibility
+    - krastorio2 compatibility
 ---------------------------------------------------------------------------------------------------
 Version: 1.0.1
 Date: 23/03/2020
