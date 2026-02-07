@@ -2,8 +2,8 @@ require "util"
 
 local recipe_categories_to_bunch = {
   "smelting",
-  "chemical-furnace", -- bobs
-  "mixing-furnace", -- bobs
+  "bob-chemical-furnace", -- bobs
+  "bob-mixing-furnace", -- bobs
   "omnifurnace", --omnifurnace
 }
 

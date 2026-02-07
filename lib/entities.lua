@@ -4,8 +4,8 @@ local function micro_furnace_entity(data)
   local categories = { "micro-furnace-smelting", "micro-furnace-bunch-smelting" }
 
   if mods["bobplates"] then
-    table.insert(categories, "chemical-furnace")
-    table.insert(categories, "mixing-furnace")
+    table.insert(categories, "bob-chemical-furnace")
+    table.insert(categories, "bob-mixing-furnace")
   end
 
   if mods["omnimatter"] then
